@@ -1,0 +1,66 @@
+#calculator{
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid red;
+    
+}
+
+#visor{
+    display:flex;
+    border: 1px solid red;
+    height: 120px;
+}
+
+#smol-visor{
+    display: flex;
+    height: 40px;
+    border: 1px solid red;
+    margin: 50px
+}
+
+#big-visor{
+    display: flex;
+    height: 60px;
+    border: 1px solid blue;
+    margin: 50px;
+}
+
+#first-line{
+    display: flex;
+    border: 1px solid red;
+    flex: 1 0 auto;
+    gap: 8px;
+}
+
+#second-line{
+    display: flex;
+    border: 1px solid red;
+    flex: 1 0 auto;
+    gap: 8px;
+}
+
+#third-line {
+    display: flex;
+    border: 1px solid red;
+    flex: 1 0 auto;
+    gap: 8px;
+}
+
+#fourth-line{
+    display:flex;
+    border: 1px solid red;
+    flex: 1 0 auto;
+    gap: 8px;
+}
+#fifth-line{
+    display:flex;
+    border: 1px solid red;
+    flex: 1 0 auto;
+    gap: 8px;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    border: 1px solid blue
+}
