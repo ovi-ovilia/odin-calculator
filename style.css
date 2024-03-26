@@ -6,23 +6,30 @@
 }
 
 #visor{
-    display:flex;
-    border: 1px solid red;
-    height: 120px;
+    display:inline-flex;
+    border: 1px solid red;  
+    justify-content: flex-end;
+    align-items: flex-end;
+    height:30px;
 }
+
 
 #smol-visor{
     display: flex;
-    height: 40px;
     border: 1px solid red;
-    margin: 50px
+    height:30px;
+}
+
+#operator{
+    display: flex;
+    border: 1px solid red;
+    height:30px;
 }
 
 #big-visor{
     display: flex;
-    height: 60px;
     border: 1px solid blue;
-    margin: 50px;
+    height:30px;
 }
 
 #first-line{
